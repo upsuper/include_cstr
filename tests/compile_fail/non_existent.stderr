@@ -1,0 +1,5 @@
+error: No such file or directory (os error 2)
+ --> $DIR/non_existent.rs:4:27
+  |
+4 |     let _ = include_cstr!("non-existent");
+  |                           ^^^^^^^^^^^^^^

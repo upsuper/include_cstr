@@ -1,0 +1,5 @@
+error: nul byte found in the file
+ --> $DIR/include_zero.rs:4:27
+  |
+4 |     let _ = include_cstr!("content_with_zero.bin");
+  |                           ^^^^^^^^^^^^^^^^^^^^^^^

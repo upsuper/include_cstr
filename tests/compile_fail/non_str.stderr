@@ -1,0 +1,41 @@
+error: expected a string literal
+ --> $DIR/non_str.rs:4:27
+  |
+4 |     let _ = include_cstr!(1);
+  |                           ^
+
+error: expected a string literal
+ --> $DIR/non_str.rs:5:27
+  |
+5 |     let _ = include_cstr!(&1);
+  |                           ^
+
+error: expected a string literal
+ --> $DIR/non_str.rs:6:27
+  |
+6 |     let _ = include_cstr!(true);
+  |                           ^^^^
+
+error: expected a string literal
+ --> $DIR/non_str.rs:7:27
+  |
+7 |     let _ = include_cstr!(("a"));
+  |                           ^^^^^
+
+error: expected a string literal
+ --> $DIR/non_str.rs:8:27
+  |
+8 |     let _ = include_cstr!('a');
+  |                           ^^^
+
+error: expected a string literal
+ --> $DIR/non_str.rs:9:27
+  |
+9 |     let _ = include_cstr!(b'a');
+  |                           ^^^^
+
+error: expected a string literal
+  --> $DIR/non_str.rs:10:27
+   |
+10 |     let _ = include_cstr!(b"a");
+   |                           ^^^^

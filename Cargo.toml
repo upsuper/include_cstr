@@ -1,0 +1,20 @@
+[package]
+name = "include_cstr"
+description = "Macro for building static CStr reference from file content"
+repository = "https://github.com/upsuper/include_cstr"
+version = "0.1.0"
+license = "MIT"
+authors = ["Xidorn Quan <me@upsuper.org>"]
+keywords = ["macro", "cstr"]
+edition = "2018"
+readme = "README.md"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro2 = "1"
+quote = "1"
+
+[dev-dependencies]
+trybuild = "1"

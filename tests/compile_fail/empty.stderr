@@ -1,0 +1,7 @@
+error: unexpected end of input, expected a string literal
+ --> $DIR/empty.rs:4:13
+  |
+4 |     let _ = include_cstr!();
+  |             ^^^^^^^^^^^^^^^
+  |
+  = note: this error originates in a macro (in Nightly builds, run with -Z macro-backtrace for more info)
